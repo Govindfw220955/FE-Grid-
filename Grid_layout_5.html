@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            background-color: #4fb0d5;
+            height: 500px;
+            padding: 40px;
+            width: 1480px;
+        }
+        .container{
+            background-color: #292b2c;
+            margin-bottom: 20px;
+            height: 700px;
+            border-radius: 12px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(12,98px);
+            gap: 20px 20px;
+            grid-template-rows: repeat(5,55px);
+            width: 1400px;
+            height: 360px;
+            padding: 30px;
+        }
+        .container>div{
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            border: 4px;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 8px;
+            background-color: #434343;
+            color: #4794c8;
+            box-shadow: #111213 2px 20px 30px -10px;
+        }
+        .Enter{
+            grid-column: 13/11;
+            grid-row: 3
+        }
+        .shift2{
+            grid-column: 11/13;
+            grid-row: 4;
+        }
+        .space{
+            grid-column: -9/-5;
+            grid-row: 5;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="container">
+            <div class="~">~</div>
+            <div class="1">1</div>
+            <div class="2">2</div>
+            <div class="3">3</div>
+            <div class="4">4</div>
+            <div class="5">5</div>
+            <div class="6">6</div>
+            <div class="7">7</div>
+            <div class="8">8</div>
+            <div class="9">9</div>
+            <div class="0">0</div>
+            <div class="delete">delete</div>
+            <div class="tab">tab</div>
+            <div class="Q">Q</div>
+            <div class="W">W</div>
+            <div class="E">E</div>
+            <div class="R">R</div>
+            <div class="T">T</div>
+            <div class="Y">Y</div>
+            <div class="U">U</div>
+            <div class="I">I</div>
+            <div class="O">O</div>
+            <div class="P">P</div>
+            <div class="\">\</div>
+            <div class="caps">caps</div>
+            <div class="A">A</div>
+            <div class="S">S</div>
+            <div class="D">D</div>
+            <div class="F">F</div>
+            <div class="G">G</div>
+            <div class="H">H</div>
+            <div class="J">J</div>
+            <div class="K">K</div>
+            <div class="L">L</div>
+            <div class="Enter">Enter</div>
+            <div class="Shift">Shift</div>
+            <div class="Z">Z</div>
+            <div class="X">X</div>
+            <div class="C">C</div>
+            <div class="V">V</div>
+            <div class="B">B</div>
+            <div class="N">N</div>
+            <div class="M">M</div>
+            <div class="Lessthan"><</div>
+            <div class="greaterthan">></div>
+            <div class="shift2">Shift</div>
+            <div class="earth">🌐</div>
+            <div class="control">control</div>
+            <div class="option">option</div>
+            <div class="alt">alt</div>
+            <div class="space">Space</div>
+            <div class="alt2">alt</div>
+            <div class="option2">option</div>
+            <div class="leftarrow">←</div>
+            <div class="rightarrow">→</div>
+        </div>
+</body>
+
+</html>
